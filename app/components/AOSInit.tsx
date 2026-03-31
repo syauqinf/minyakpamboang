@@ -1,0 +1,26 @@
+'use client'
+
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+export default function AOSInit() {
+  useEffect(() => {
+    // Prevent scroll restoration issues
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0)
+    }
+    
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true,
+      offset: 100,
+      delay: 0,
+      disable: 'mobile', // Disable on mobile for better performance
+      startEvent: 'DOMContentLoaded',
+    })
+  }, [])
+
+  return null
+}
