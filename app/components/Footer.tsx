@@ -61,7 +61,7 @@ const Footer: React.FC<FooterProps> = ({ 'data-aos': dataAos }) => {
               </li>
               <li className="flex items-start">
                 <span className="mr-3">📞</span>
-                <span>0853-9801-3277</span>
+                <span>0813-4126-3588</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">📍</span>

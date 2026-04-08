@@ -32,7 +32,7 @@ const CTA: React.FC<CTAProps> = ({ 'data-aos': dataAos }) => {
               Kunjungi Toko
             </a>
             <a 
-              href="https://wa.me/6285398013277?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Minyak%20Pamboang%20Pusaka%20"
+              href="https://wa.me/6281341263588?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Minyak%20Pamboang%20Pusaka%20"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-gray-900 hover:bg-gray-50 font-semibold py-1 px-6 rounded-2xl transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1 text-lg flex items-center justify-center gap-3 border-2 border-green-400/50 hover:border-green-500/70 min-w-[180px] sm:min-w-[200px]"

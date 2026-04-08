@@ -143,8 +143,11 @@ const Produk: React.FC<ProdukProps> = ({ 'data-aos': dataAos }) => {
                 {/* Price and CTA */}
                 <div className="flex flex-col items-center justify-between gap-4 pt-6 border-t border-gray-100">
                   <div className="text-center mb-4">
-                    <span className="text-gray-500 text-sm">Harga</span>
-                    <span className="text-3xl font-bold text-red-900 block">Rp 75.000</span>
+                    <span className="text-gray-500 text-sm block mb-1">Harga Spesial</span>
+                    <div className="flex items-center justify-center gap-3">
+                      <span className="text-lg text-gray-400 line-through decoration-red-500/50">Rp 135.000</span>
+                      <span className="text-3xl font-bold text-red-900">Rp 75.000</span>
+                    </div>
                   </div>
                   <div className="flex flex-col items-center gap-3 w-full">
                     <a href="https://shopee.co.id/Obat-Luka-Bakar-Luka-Diabetes-Luka-Jahitan-Minyak-Pamboang-Pusaka-Mandar-Asli-1-btl-70ml-i.102994650.11697849304?extraParams=%7B%22display_model_id%22%3A107382677335%2C%22model_selection_logic%22%3A3%7D" target="_blank" rel="noopener noreferrer" className="block w-full">
@@ -153,7 +156,7 @@ const Produk: React.FC<ProdukProps> = ({ 'data-aos': dataAos }) => {
                         <span className="text-lg flex-1 text-center">Beli di Shopee</span>
                       </button>
                     </a>
-                    <a href="https://wa.me/6285398013277?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Minyak%20Pamboang%2070ml" target="_blank" rel="noopener noreferrer" className="block w-full">
+                    <a href="https://wa.me/6281341263588?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Minyak%20Pamboang%2070ml" target="_blank" rel="noopener noreferrer" className="block w-full">
                       <button className="bg-white hover:bg-gray-50 text-green-600 font-semibold px-6 py-3 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-1 w-full flex items-center gap-3 border-2 border-green-500 relative overflow-hidden h-16">
                         {/* Glow stroke effect */}
                         <div className="absolute inset-0 bg-green-500/20 rounded-xl blur-md -z-10"></div>
@@ -265,8 +268,11 @@ const Produk: React.FC<ProdukProps> = ({ 'data-aos': dataAos }) => {
               {/* Price and CTA */}
               <div className="flex flex-col items-center justify-between gap-4 pt-6 border-t border-gray-100">
                 <div className="text-center mb-4">
-                  <span className="text-gray-500 text-sm">Harga</span>
-                  <span className="text-3xl font-bold text-red-900 block">Rp 75.000</span>
+                  <span className="text-gray-500 text-sm block mb-1">Harga Spesial</span>
+                  <div className="flex items-center justify-center gap-3">
+                    <span className="text-base text-gray-400 line-through decoration-red-500/50">Rp 135.000</span>
+                    <span className="text-3xl font-bold text-red-900">Rp 75.000</span>
+                  </div>
                 </div>
                 <div className="flex flex-col items-center gap-3 w-full">
                   <a href="https://shopee.co.id/Obat-Luka-Bakar-Luka-Diabetes-Luka-Jahitan-Minyak-Pamboang-Pusaka-Mandar-Asli-1-btl-70ml-i.102994650.11697849304?extraParams=%7B%22display_model_id%22%3A107382677335%2C%22model_selection_logic%22%3A3%7D" target="_blank" rel="noopener noreferrer" className="block w-full">
@@ -275,7 +281,7 @@ const Produk: React.FC<ProdukProps> = ({ 'data-aos': dataAos }) => {
                       <span className="text-base">Beli di Shopee</span>
                     </button>
                   </a>
-                  <a href="https://wa.me/6285398013277?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Minyak%20Pamboang%2070ml" target="_blank" rel="noopener noreferrer" className="block w-full">
+                  <a href="https://wa.me/6281341263588?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Minyak%20Pamboang%2070ml" target="_blank" rel="noopener noreferrer" className="block w-full">
                     <button className="bg-white hover:bg-gray-50 text-green-600 font-semibold px-6 py-2 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-1 w-full flex items-center gap-2 border-2 border-green-500 relative overflow-hidden h-12">
                       {/* Glow stroke effect */}
                       <div className="absolute inset-0 bg-green-500/20 rounded-xl blur-md -z-10"></div>
